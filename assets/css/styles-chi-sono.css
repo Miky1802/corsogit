@@ -72,12 +72,16 @@ nav ul li a:hover {
 
     .about {
         flex-direction: column;
-        text-align: center;
+        
+        
+    
     }
 
     .presentazione {
 
-        margin-left: 30px;
+        margin: 40px auto;
+        text-align: center;
+        
     }    
     
     }
@@ -86,8 +90,8 @@ nav ul li a:hover {
 
         .presentazione-2 {
 
-            margin-left: 10px;     
-            margin-right: 10px;       
+            margin: 0 auto; 
+            text-align: center;      
         }
 
 
