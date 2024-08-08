@@ -1,0 +1,160 @@
+
+h1 {
+    
+    text-align: center;
+    color: azure; 
+    font-size: 100px;
+    font-family: "Antonio", "Antonio Placeholder", sans-serif;
+
+}
+
+h2 {
+
+    text-align: center; 
+    color: azure; 
+    font-size: 24px;
+    font-family: "Roboto", sans-serif, bold;
+    margin-top: 50px;
+    
+}
+
+
+body {
+	background: linear-gradient(-45deg, black, rgb(83, 81, 81), #186e8e, #095644);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@media  (max-width: 768px) {
+
+    h1 {
+
+        font-size: 70px;
+    }
+    
+}
+
+.navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.offcanvas {
+
+    background-color: rgb(131, 125, 125);
+}
+
+.nav-item {
+
+    font-size: larger;
+}
+
+.nav-link {
+
+    color: white;
+
+}
+
+nav ul li a:hover {
+    
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+@media (max-width: 580px) {
+
+    h1 {
+
+    color: azure; 
+    margin-top: 130px; 
+    font-size: 70px;
+    font-family: "Antonio", "Antonio Placeholder", sans-serif;
+   
+    }
+
+
+}
+
+
+
+
+a:hover {
+
+    color: black;
+}
+
+
+.bottone {
+
+color: #FFFFFF;
+font-size: 16px;
+background-color: transparent;
+border-radius: 4px;
+padding: 10px 20px;
+border: 1px solid white;
+cursor: pointer;
+
+}
+
+.bottone:hover {
+
+background-color:white;
+border-color: white;
+color: black;
+font-weight: bold;
+
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

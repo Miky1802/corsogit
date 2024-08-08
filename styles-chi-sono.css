@@ -1,0 +1,104 @@
+body {
+
+    background-color: black;
+}
+
+
+
+.navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.offcanvas {
+
+    background-color: rgb(131, 125, 125);
+}
+
+.nav-item {
+
+    font-size: larger;
+}
+
+.nav-link {
+
+    color: white;
+
+}
+
+nav ul li a:hover {
+    
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+   
+
+    
+    
+
+.about {
+
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+}
+
+.presentazione {
+
+    justify-content: center;
+    margin-left: 270px;
+    margin-top: 70px;
+    font-family: "Antonio", "Antonio Placeholder", sans-serif;
+    font-size: 40px;
+
+
+}
+
+.presentazione-2  {
+
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    margin-left: 210px;
+    margin-right: 180px;
+    margin-top: 50px;
+
+}
+
+@media screen and (max-width: 1023px) {
+
+    .about {
+        flex-direction: column;
+        
+        
+    
+    }
+
+    .presentazione {
+
+        margin: 40px auto;
+        text-align: center;
+        
+    }    
+    
+    }
+
+    @media screen and (max-width: 678px) {
+
+        .presentazione-2 {
+
+            margin: 0 auto; 
+            text-align: center;      
+        }
+
+
+        
+    }
+    
+
+
+
+
